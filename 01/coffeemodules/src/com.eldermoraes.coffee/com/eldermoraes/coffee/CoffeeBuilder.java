@@ -17,7 +17,7 @@ public class CoffeeBuilder {
         }
     }
 
-    public static Coffe getInstance(CoffeeType type, boolean isArabica) {
+    public Coffe getInstance(CoffeeType type, boolean isArabica) {
         Coffe coffe = new Coffe(type, isArabica);
         return coffe;
     }
